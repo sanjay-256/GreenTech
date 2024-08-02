@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mypage</title>
+    <link rel="stylesheet" href="Class4.css">
+</head>
+
+<body>
+    <section>
+       <div class="holder"> <button class="btn" id="bttn"><i class="bi bi-list"></i></button></div>
+        <nav class="container">
+            <div class="navbar">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/bg.jpg" alt="">Web
+                </a>
+                <div>
+                    <ul class="navbar-items">
+                        <li class="nav-link"><a href="#">HOME</a></li>
+                        <li class="nav-link"><a href="#">ABOUT</a></li>
+                        <li class="nav-link"><a href="#">CONTACT</a></li>
+                        <li class="nav-link"><a href="#">HELP</a></li>
+                    </ul>
+                </div>
+                <div class="login">
+                    <a href="form.html"><i class="bi bi-person-circle"></i></a>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <script>
+        document.getElementById('bttn').addEventListener('click', function () {
+            var container = document.querySelector('.container');
+            if (container.style.display === 'block' || container.style.display === '') {
+                container.style.display = 'none';
+            } else {
+                container.style.display = 'block';
+            }
+        });
+
+    </script>
+</body>
+
+</html>
