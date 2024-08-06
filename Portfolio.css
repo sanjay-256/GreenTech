@@ -67,29 +67,6 @@ a {
     box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.5);
 }
 
-.login {
-    font-size: 25px;
-    margin-right: 10px;
-}
-
-.resume {
-    position: relative;
-}
-
-.resume:hover .msg {
-    display: block;
-}
-
-.msg {
-    display: none;
-    position: absolute;
-    top: 30px;
-    right: 0px;
-    color: rgb(1, 255, 238);
-    font-size: 13px;
-    width: 140px;
-}
-
 /* ------------ navbar --------------- */
 
 .container {
@@ -98,10 +75,6 @@ a {
     padding-top: 70px;
 }
 
-.main-content{
-    padding: 100px 0px 50px 0px;
-    /* display: none; */
-}
 
 h3 span {
     color: #0fe;
@@ -111,7 +84,7 @@ h3 span {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
 }
 
 .text {
@@ -179,11 +152,6 @@ h3 span {
     margin-top: 30px;
 }
 
-.about{
-    padding-bottom: 30px;
-    margin: 40px 0px;
-    /* display: none; */
-}
 
 /* skills */
 
@@ -192,8 +160,7 @@ h3 span {
 }
 
 .skills{
-margin-top: 100px;
-height: 70vh;
+height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -203,7 +170,7 @@ position: relative;
 
 .skills h2{
     position: absolute;
-    top: 0px;
+    top: 100px;
     font-size: 30px;
 }
 
@@ -267,9 +234,7 @@ cursor: pointer;
 
 /* projects */
 
-.project{
-    padding-top: 30px;
-}
+
 
 .cards1,.cards2,.cards3{
     height: 200px;
@@ -324,11 +289,11 @@ background: black;
 
 /* contact */
 .contact{
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;align-items: center;
-    padding: 40px 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 .box{
@@ -352,7 +317,8 @@ input{
     padding: 10px;
     border: none;
     border-radius: 5px;
-    color: #0fe;
+    color: blue;
+    font-weight: bold;
 }
 textarea{
     font-size: 15px;
